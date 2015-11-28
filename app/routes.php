@@ -15,3 +15,18 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+Route::resource('usuarios', 'UsuariosController');
+
+Route::resource('categorias', 'CategoriasController');
+
+Route::resource('autores', 'AutoresController');
+
+Route::resource('libros', 'LibrosController');
+
+Route::resource('carros', 'CarrosController');
+
+Route::resource('ordens', 'OrdensController');
+
+Route::resource('ordenlibros', 'OrdenlibrosController');
