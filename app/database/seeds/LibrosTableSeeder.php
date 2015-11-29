@@ -7,9 +7,15 @@ class LibrosTableSeeder extends Seeder {
 		// Uncomment the below to wipe the table clean before populating
 		// DB::table('libros')->truncate();
 
-		$libros = array(
-
-		);
+		Libro::create([
+				'titulo'=>
+				'isbn'=>
+				'precio'=>
+				'publicacion'=>
+				'descripcion'=>
+				'autor_id'=>
+				'categoria_id'=>
+			]);
 
 		// Uncomment the below to run the seeder
 		// DB::table('libros')->insert($libros);
