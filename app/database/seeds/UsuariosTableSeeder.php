@@ -22,6 +22,7 @@ class UsuariosTableSeeder extends Seeder {
 				'nombre'=>'admin',
 				'apellido'=>'admin',
 				'admin'=>1,
+				'created_at'=> new DateTime 
 				
 			],
 
