@@ -7,9 +7,7 @@ class CategoriasTableSeeder extends Seeder {
 		// Uncomment the below to wipe the table clean before populating
 		// DB::table('categorias')->truncate();
 
-		$categorias = array(
-
-		);
+		Categoria::create(['descripcion'=>'','tipo'=>'']);
 
 		// Uncomment the below to run the seeder
 		// DB::table('categorias')->insert($categorias);
