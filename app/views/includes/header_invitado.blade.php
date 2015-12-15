@@ -24,6 +24,14 @@
 						<li>
 							{{Form::open(array('url'=>'/usuario/login',"class"=>"navbar-form navbar-left"))}}
 
+								<div class="form-group">
+									<input type="text" placeholder="Email" class="form-control" name="email">
+									<input type="password" placeholder="Email" class="form-control" name="password">
+								</div>
+								<button type="submit" class="btn btn-default btn-block submitBtn "></button>
+
+
+
 							{{Form}}
 						</li>
 					</ul>
