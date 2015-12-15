@@ -26,9 +26,9 @@
 
 								<div class="form-group">
 									<input type="text" placeholder="Email" class="form-control" name="email">
-									<input type="password" placeholder="Email" class="form-control" name="password">
+									<input type="password" placeholder="password" class="form-control" name="password">
 								</div>
-								<button type="submit" class="btn btn-default btn-block submitBtn "></button>
+								<button type="submit" class="btn btn-default btn-block submitBtn ">Iniciar Sesion</button>
 
 
 
