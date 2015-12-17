@@ -10,12 +10,14 @@
 		@if(Auth::check())
 			@include('includes.header_invitado')
 		@else
-			@include('includes.header_admin')	
+			@include('includes.header_usuario')	
 		@endif
 
-		@yield('contenido_admin')
+		@yield('content')
 
 		@include('includes.footer')
 	</div>
+
+	@include('includes.script')
 </body>
 </html>
